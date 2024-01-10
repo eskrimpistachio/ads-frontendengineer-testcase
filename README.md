@@ -9,18 +9,21 @@
     - Detail Buku : jika di pencet akan langsung di arahkan ke /detail-buku/{id dari buku yang di klik}
     - Ubah : jika di pencet akan langsung di arahkan ke /edit-buku/{id dari buku yang di klik}, kemudian terdapat isi dari setiap input yang akan di ubah.
     - Hapus : jika di pencet akan melakukan metode delete yang di sediakan oleh API berdasarkan id dari buku yang ingin di hapus
+ ![Daftar Buku](https://github.com/eskrimpistachio/ads-frontendengineer-testcase/assets/86562679/fcb455f5-2530-4891-b09d-4b7f7c04cea4)
 
 ### /add-buku
 
 - Berisi 6 input dari data-data buku yang ingin di masukan seperti ( title, description, price dan author )
 - tombol submit yang akan melakukan metode POST yang di sediakan api untuk menyimpan buku kedalam data API
 - tombol Back to all books yang akan mengarahkan ke /
+![Tambah Buku](https://github.com/eskrimpistachio/ads-frontendengineer-testcase/assets/86562679/d2dc3223-9c03-45fc-8fd0-c479343c9b6c)
 
 ### /detail-buku/{id dari buku yang di klik}
 
 - Berisi detail buku yang akan mengambil metode get API yang berdasarkan id dari buku tersebut
 - berisi Title, Deskripsi, Price dan Author
 - tombol Back to all books yang akan mengarahkan ke /
+![Detail Buku](https://github.com/eskrimpistachio/ads-frontendengineer-testcase/assets/86562679/1ce51744-fd35-4ab5-9dbf-2c60f1b0ed04)
 
 ### /edit-buku/{id dari buku yang di klik}
 
@@ -28,6 +31,7 @@
 - Berisi 6 input dari data-data buku yang ingin di masukan seperti ( title, description, price dan author )
 - tombol submit yang akan melakukan metode PUT yang di sediakan api untuk menyimpan buku kedalam data API
 - tombol Back to all books yang akan mengarahkan ke /
+![Edit Buku](https://github.com/eskrimpistachio/ads-frontendengineer-testcase/assets/86562679/8466419c-d2e1-4278-beae-66370179d8db)
 
 ## Hello my name is Fatih, This is my bio :
 
