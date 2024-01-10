@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Code Documentation
 
-## Getting Started
+### / 
 
-First, run the development server:
+- Berisi jumlah buku yang tersedia
+- Tombol tambah buku, jika di pencet akan mengarahkan kepada /add-buku
+- Data buku yang berisi Judul, Deskripsi, Harga, Pemilik dan Aksi yang di dapatkan dengan get dari API yang sudah disediakan
+- Untuk aksi terdapat : 
+    - Detail Buku : jika di pencet akan langsung di arahkan ke /detail-buku/{id dari buku yang di klik}
+    - Ubah : jika di pencet akan langsung di arahkan ke /edit-buku/{id dari buku yang di klik}, kemudian terdapat isi dari setiap input yang akan di ubah.
+    - Hapus : jika di pencet akan melakukan metode delete yang di sediakan oleh API berdasarkan id dari buku yang ingin di hapus
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### /add-buku
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Berisi 6 input dari data-data buku yang ingin di masukan seperti ( title, description, price dan author )
+- tombol submit yang akan melakukan metode POST yang di sediakan api untuk menyimpan buku kedalam data API
+- tombol Back to all books yang akan mengarahkan ke /
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### /detail-buku/{id dari buku yang di klik}
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Berisi detail buku yang akan mengambil metode get API yang berdasarkan id dari buku tersebut
+- berisi Title, Deskripsi, Price dan Author
+- tombol Back to all books yang akan mengarahkan ke /
 
-## Learn More
+### /edit-buku/{id dari buku yang di klik}
 
-To learn more about Next.js, take a look at the following resources:
+- berbeda dengan form /add-buku, form /edit-buku ini mengambil data sebelumnya dari buku yang di pilih
+- Berisi 6 input dari data-data buku yang ingin di masukan seperti ( title, description, price dan author )
+- tombol submit yang akan melakukan metode PUT yang di sediakan api untuk menyimpan buku kedalam data API
+- tombol Back to all books yang akan mengarahkan ke /
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Hello my name is Fatih, This is my bio :
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Name			: Alfatih Rizqi Alfian
+- Email    : alfatihrizqialfian@gmail.com
+- CV				: [CV - Alfatih Rizqi Alfian.pdf](https://drive.google.com/file/d/1RlJ22mPFDR2_4bCpmoWVesHfRS4MnQnP/view?usp=sharing)
+- Github			: https://github.com/eskrimpistachio	
+- Linkedin			: https://www.linkedin.com/in/alfatih-rizqi-alfian/	
+- Website Portfolio		: https://fatih-portfolio-fe.vercel.app/ 
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Thank you for the opportunity, Have a great day!
